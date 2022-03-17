@@ -10,10 +10,8 @@
                 </b-navbar-item>
             </template>
             <template #start>
-                <b-navbar-item href="#">
-                    Home
-                </b-navbar-item>
-                <b-navbar-item href="#">
+                
+                <!-- <b-navbar-item href="#">
                     Documentation
                 </b-navbar-item>
                 <b-navbar-dropdown label="Info">
@@ -23,15 +21,19 @@
                     <b-navbar-item href="#">
                         Contact
                     </b-navbar-item>
-                </b-navbar-dropdown>
+                </b-navbar-dropdown> -->
             </template>
 
             <template #end>
+                <b-navbar-item href="/">
+                    Home
+                </b-navbar-item>
+
                 <b-navbar-item tag="div">
                     <div class="buttons">
-                        <a class="button is-primary">
+                        <!-- <a class="button is-primary">
                             <strong>Sign up</strong>
-                        </a>
+                        </a> -->
                         <a class="button is-light" tag="a" href="/login">
                             Log in
                         </a>
@@ -40,7 +42,7 @@
             </template>
         </b-navbar>
 
-        <section class="hero is-primary is-fullheight">
+        <section class="hero is-primary">
             <div class="hero-body">
                 <div class="">
                 <p class="title">

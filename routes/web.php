@@ -81,8 +81,14 @@ Route::get('/get-report-track', [App\Http\Controllers\Administrator\ReportTrackC
 
 Route::resource('/offices', App\Http\Controllers\Administrator\OfficeController::class);
 Route::get('/get-offices', [App\Http\Controllers\Administrator\OfficeController::class, 'getOffices']);
-Route::get('/load-offices', [App\Http\Controllers\Administrator\OfficeController::class, 'loadOffices']);
 
+
+Route::resource('/library-locations', App\Http\Controllers\Administrator\LibraryLocationController::class);
+Route::get('/get-library-locations', [App\Http\Controllers\Administrator\LibraryLocationController::class, 'getLibraryLocations']);
+
+
+Route::resource('/material-types', App\Http\Controllers\Administrator\MaterialTypeController::class);
+Route::get('/get-material-types', [App\Http\Controllers\Administrator\MaterialTypeController::class, 'getMaterialTypes']);
 
 
 

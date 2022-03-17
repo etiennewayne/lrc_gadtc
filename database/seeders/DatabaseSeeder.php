@@ -18,7 +18,9 @@ class DatabaseSeeder extends Seeder
         $this->call([
         
             UserSeeder::class,
-           
+            LibraryLocationSeeder::class,
+            MaterialTypeSeeder::class,
+
         ]);
     }
 }

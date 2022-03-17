@@ -51,8 +51,18 @@
                         </b-menu-list>
                       
                         <b-menu-list>
+                            <b-menu-item label="Library Location" icon="library" tag="a" href="/library-locations"></b-menu-item>
+                        </b-menu-list>
+
+                        <b-menu-list>
+                            <b-menu-item label="Material Types" icon="format-list-bulleted-type" tag="a" href="/material-types"></b-menu-item>
+                        </b-menu-list>
+
+                        <b-menu-list>
                             <b-menu-item label="Catalog" icon="file-move-outline" tag="a" href="/catalog"></b-menu-item>
                         </b-menu-list>
+
+                        
 
                         <b-menu-list>
                             <b-menu-item label="User" icon="account" tag="a" href="/users"></b-menu-item>
