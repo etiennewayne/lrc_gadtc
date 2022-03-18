@@ -19,7 +19,6 @@
                                     <b-select v-model="sortOrder" @input="loadAsyncData">
                                         <option value="asc">ASC</option>
                                         <option value="desc">DESC</option>
-
                                     </b-select>
                                 </b-field>
                             </div>
@@ -32,7 +31,7 @@
                                                  @keyup.native.enter="loadAsyncData"/>
                                         <p class="control">
                                              <b-tooltip label="Search" type="is-success">
-                                            <b-button type="is-primary" icon-right="account-filter" @click="loadAsyncData"/>
+                                            <b-button type="is-primary" icon-right="feature-search-outline" @click="loadAsyncData"/>
                                              </b-tooltip>
                                         </p>
                                     </b-field>
