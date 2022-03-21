@@ -18,12 +18,22 @@ class CreateMaterialsTable extends Migration
             $table->string('material_type')->nullable();
             $table->string('title')->nullable();
             $table->string('subtitle')->nullable();
-            $table->string('authors')->nullable();
+            $table->string('authors_a')->nullable();
             $table->string('edition')->nullable();
             $table->string('lccn')->nullable();
             $table->string('isbn')->nullable();
             $table->string('issn')->nullable();
+            $table->string('authors_b')->nullable();
+            $table->string('author_dates')->nullable();
 
+            $table->string('publication_place')->nullable();
+            $table->string('publication_publisher')->nullable();
+            $table->string('publication_date')->nullable();
+            $table->string('publication_copyright')->nullable();
+
+            $table->string('extent')->nullable();
+            $table->string('other_details')->nullable();
+            $table->string('size')->nullable();
 
             $table->string('sys_user')->nullable();
             $table->timestamps();
