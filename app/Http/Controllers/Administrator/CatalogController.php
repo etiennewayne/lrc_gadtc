@@ -39,6 +39,10 @@ class CatalogController extends Controller
     //         ->get();
     // }
 
+    public function create(){
+        return view('administrator.catalog-create');
+    }
+
 
 
     // public function store(Request $req){

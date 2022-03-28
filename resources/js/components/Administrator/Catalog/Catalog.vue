@@ -5,7 +5,16 @@
                 <div class="column is-10">
                     <div class="box">
 
-                        <div class="is-flex is-justify-content-center mb-2" style="font-size: 20px; font-weight: bold;">CATALOG BOOKS</div>
+                        <b-breadcrumb
+                            separator="has-arrow-separator"
+                            align="is-right"
+                            size="is-medium"
+                        >
+                            <b-breadcrumb-item href="/catalog">Catalog</b-breadcrumb-item>
+                        </b-breadcrumb>
+
+
+                        <div class="is-flex is-justify-content-center mb-2" style="font-size: 20px; font-weight: bold;">CATALOGING</div>
 
                         <div class="level">
                             <div class="level-left">
@@ -100,7 +109,7 @@
                         </b-table>
 
                         <div class="buttons mt-3">
-                            <b-button @click="openModal" icon-right="account-arrow-up-outline" class="is-primary">NEW BOOK</b-button>
+                            <b-button tag="a" href="/catalog/create" icon-right="plus" class="is-primary">NEW</b-button>
                         </div>
 
                     </div>

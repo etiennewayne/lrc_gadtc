@@ -46,10 +46,10 @@
             <div class="hero-body">
                 <div class="">
                 <p class="title">
-                    BMIS
+                    LEARNING RESOURCE CENTER
                 </p>
                 <p class="subtitle">
-                    Barangay Management Information System
+                    Gov. Alfonso D. Tan College
                 </p>
                 </div>
             </div>
