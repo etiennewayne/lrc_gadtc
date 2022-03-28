@@ -62,7 +62,8 @@ Route::get('/get-user-offices', [App\Http\Controllers\Administrator\UserControll
 
 //CATALOGING
 Route::resource('/catalog', App\Http\Controllers\Administrator\CatalogController::class);
-Route::get('/get-catalog', [App\Http\Controllers\Administrator\AppointmentTypeController::class, 'getCatalog']);
+Route::get('/get-catalog', [App\Http\Controllers\Administrator\CatalogController::class, 'getCatalog']);
+Route::get('/load-catalog-material-types', [App\Http\Controllers\Administrator\CatalogController::class, 'loadCatalogMaterialTypes']);
 
 
 Route::resource('/ordinance', App\Http\Controllers\Administrator\OrdinanceController::class);

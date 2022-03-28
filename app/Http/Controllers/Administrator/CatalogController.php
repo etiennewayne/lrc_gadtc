@@ -4,6 +4,8 @@ namespace App\Http\Controllers\Administrator;
 
 
 use App\Models\User;
+use App\Models\MaterialType;
+
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -38,6 +40,10 @@ class CatalogController extends Controller
     //         ->where('a.appointment_type_id', $id)
     //         ->get();
     // }
+
+    public function loadCatalogMaterialTypes(){
+        return MaterialType::orderBy('material_type', 'asc')->get();
+    }
 
     public function create(){
         return view('administrator.catalog-create');
